@@ -6,7 +6,9 @@
 class Dice
 
   def roll
-    # code goes here
+  	Random.new.rand(1...6)
   end
-
 end
+
+#answer = Dice.new
+#answer.roll

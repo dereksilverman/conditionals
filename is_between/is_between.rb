@@ -6,8 +6,11 @@
 
 class Integer
 
-  def is_between?
-    #code goes here
+  def is_between? (min, max)
+    if self > min && self < max
+    	true
+    else
+    	false
+    end
   end
-
 end
